@@ -1,0 +1,71 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+header{
+    background-color: rgb(74, 112, 112);
+    color: white;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+main{
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#inputext{
+    text-align: start;
+    padding: 10px 100px;
+    border-radius:3px;
+    border: none;
+    background-color: rgb(235, 230, 224);
+}
+#submitbtn{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(74, 112, 112);
+    border-radius: 4px;
+    cursor: pointer;
+}
+#submitbtn:hover{
+    background-color:  rgb(28, 78, 78);
+}
+
+footer{
+    background-color: rgb(74, 112, 112); 
+    text-align: center;
+    padding: 10px;
+}
+.result{
+    display: flex;
+    background-image: url(images/mathias-reding-3P9QzN5uF5Q-unsplash.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    flex-direction: column;
+    border: 2px solid rgb(216, 199, 199);
+    width: 40%;
+    height: fit-content;
+    box-shadow:  rgb(114, 37, 37);
+    color:white;
+    margin: 20px auto;
+    padding: 10px;
+     border-radius: 8px;
+    background-color: rgb(221, 243, 243);
+}
+.result p {
+    margin-top: 10px;
+
+}
+.result a{
+    text-decoration: none;
+    margin-top: 10px;
+    
+}
